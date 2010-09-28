@@ -1,3 +1,36 @@
+# DesignAdmin
+
+A design business admin system
+
+- Version: 0.1
+- Date: 2010-07-06
+- Download: <http://symphony-cms.com/download/ensembles/view/47102/>
+- Github Repository: <http://github.com/builders/designadmin/>
+- Forum Discussion: <http://symphony-cms.com/discuss/thread/47103/>
+
+## Release Notes
+
+#### [Version 0.1](http://github.com/builders/designadmin/commits/0.1)
+
+- Date: 6 July 2010
+- Initial Release
+- Symphony 2.0.8RC3
+- Subsection Manager Extension 1.0dev
+
+### Description
+
+When I was freelancing under the name [bauhouse](http://bauhouse.ca/), I had to wear a lot of hats. Finding the right tools to run my site, administrate my business and facilitate communication with my clients was a challenge.
+
+While in search of tools that could simplify the administration of my design business, I found that software would force me to work a certain way, depending on what I was working on. Duplication of data entry was the biggest frustration. For a freelance business, it would be ideal to enter data once and be able to view information in many forms without having to switch from one application to another.
+
+I found that this was not easily feasible … until Symphony came along. Since the introduction of sections and custom fields that could be configured according to the needs of the Symphony developer, specifically section links (a feature that I requested), I have been thinking about how this feature might be used to build a project management system.
+
+I am in the process of building a project management system that uses Symphony to keep track of clients, projects and timesheets. Eventually, I want it to do everything, because I am tired of switching between several applications (desktop and web) that don’t work together and force me to duplicate my efforts. This is a long-term project, but I am trying to solve problems I have had with running my business since I started it 16 years ago. I have never found a system that does what I need, so I am building it myself - necessity being the mother of invention.
+
+It will be a design business administration system built on the Symphony framework that will track clients, projects, timesheets, estimates, invoices, bookkeeping and accounting reports, tax filing, as well as serve as a client login area to allow basecamp style project management, except with the ability to display work in progress according to project phase, with individual entries for each concept, with commenting enabled for each entry. Once an identity system has been developed, it can then be rolled out within the same system, to display an online corporate identity standards manual and provide a means of distributing logo file formats available for download.
+
+
+
 # Symphony 2 #
 
 - Version: 2.0.8 Release Candidate 3
