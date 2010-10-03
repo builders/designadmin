@@ -2,20 +2,25 @@
 
 A design business admin system
 
-- Version: 0.1
-- Date: 2010-07-06
+- Version: 0.2
+- Date: 2010-10-02
 - Download: <http://symphony-cms.com/download/ensembles/view/47102/>
 - Github Repository: <http://github.com/builders/designadmin/>
 - Forum Discussion: <http://symphony-cms.com/discuss/thread/47103/>
 
 ## Release Notes
 
+#### [Version 0.2](http://github.com/builders/designadmin/commits/0.2)
+
+- Date: 2 Oct 2010
+- Update to Symphony 2.1.1
+- Update Export Forum Ensemble extension
+
 #### [Version 0.1](http://github.com/builders/designadmin/commits/0.1)
 
 - Date: 6 July 2010
 - Initial Release
 - Symphony 2.0.8RC3
-- Subsection Manager Extension 1.0dev
 
 ### Description
 
