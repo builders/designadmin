@@ -66,7 +66,7 @@ DROP TABLE IF EXISTS `tbl_fields_input`;
 CREATE TABLE `tbl_fields_input` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `field_id` int(11) unsigned NOT NULL,
-  `validator` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `validator` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `field_id` (`field_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=280 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
@@ -303,7 +303,7 @@ DROP TABLE IF EXISTS `tbl_fields_taglist`;
 CREATE TABLE `tbl_fields_taglist` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `field_id` int(11) unsigned NOT NULL,
-  `validator` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `validator` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `pre_populate_source` varchar(15) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `field_id` (`field_id`),
@@ -376,7 +376,7 @@ CREATE TABLE `tbl_fields_upload` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `field_id` int(11) unsigned NOT NULL,
   `destination` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `validator` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `validator` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `field_id` (`field_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=27 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
@@ -1442,7 +1442,7 @@ CREATE TABLE `tbl_entries_data_154` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `entry_id` int(11) unsigned NOT NULL,
   `file` varchar(255) DEFAULT NULL,
-  `size` int(11) unsigned NOT NULL,
+  `size` int(11) unsigned DEFAULT NULL,
   `mimetype` varchar(50) DEFAULT NULL,
   `meta` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
@@ -1463,7 +1463,7 @@ CREATE TABLE `tbl_entries_data_155` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `entry_id` int(11) unsigned NOT NULL,
   `file` varchar(255) DEFAULT NULL,
-  `size` int(11) unsigned NOT NULL,
+  `size` int(11) unsigned DEFAULT NULL,
   `mimetype` varchar(50) DEFAULT NULL,
   `meta` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
